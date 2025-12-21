@@ -11,3 +11,6 @@
 9. Go directly to your home directory.
 10. clear the terminal screen.
 
+
+
+Done
