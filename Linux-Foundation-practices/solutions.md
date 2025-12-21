@@ -42,3 +42,5 @@ linux_practice
 
 10. clear the terminal screen.
 (clear)
+
+
