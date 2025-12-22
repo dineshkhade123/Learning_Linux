@@ -53,12 +53,28 @@ mv myfile.txt dk1
 
 11. Create a backup of a file.
 
+cp solution.txt solution.bak
+tar -czvf solution.txt 2solutions.bak
+
 
 12. Create a file with numbers as content.
 
+echo "12345678910" > number.txt
+
+
 13. Create a hidden file.
+
+ touch .hidden.txt
+ ls -a
+
 
 14. Create files using a loop (basic idea).
 
+touch loop.sh
+for name in dev qa tester ; do echo "this is file" > my$name.txt ; done
+ls
+mydev myqa mytester
+
 15. Check file type.
+
 
