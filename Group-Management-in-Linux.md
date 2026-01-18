@@ -10,3 +10,6 @@ Group Management Commands
 8. gpasswd -r ---- remove password of group
 9. gpasswd -M user1,user2,user3 group-name ----- add multiple users in group at once
 10. groupdel group-name --- delelte group 
+11. getent group --- show groups
+12.  getent group group-name ---- show separate group
+    
