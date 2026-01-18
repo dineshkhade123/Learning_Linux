@@ -13,3 +13,4 @@ User Management commands
 11. passwd username --- set user password
 12. useradd -m -g group username ------ add new user with set exist group as primary group 
 15. useradd -m -G group1,group2,group3 user_name ------ create user with multiple secondary groups
+16. userdel user-name ---- delete user
