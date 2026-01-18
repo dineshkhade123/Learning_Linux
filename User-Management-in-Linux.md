@@ -14,3 +14,14 @@ User Management commands
 12. useradd -m -g group username ------ add new user with set exist group as primary group 
 15. useradd -m -G group1,group2,group3 user_name ------ create user with multiple secondary groups
 16. userdel user-name ---- delete user
+17. cat /etc/passwd --- can see users 
+18. cat /etc/shadow --- can see passwords of users (encrpted)
+19. getent passwd --- also see user (from any place)
+20. id username ---- it show userid(UID), group id(GID) , group name, secondary group name ,username
+21. groups user-name ---- show which group from user belong
+
+
+
+
+
+
